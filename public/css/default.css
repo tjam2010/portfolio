@@ -117,7 +117,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #000000;
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 100;
-    font-style: italic;
  }
  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
  h1 { font-size: 38px; line-height: 42px; margin-bottom: 12px; letter-spacing: -1px; }
@@ -131,3 +130,35 @@ h1, h2, h3, h4, h5, h6 {
  .selected{
      font-weight: 600;
  }
+
+ /* smaller screens
+--------------------------------------------------------------- */
+@media only screen and (max-width: 900px) {
+   html{
+      font-size: 75%;
+   }
+}
+
+/* mobile wide/smaller tablets
+--------------------------------------------------------------- */
+@media only screen and (max-width: 767px) {
+   html{
+      font-size: 90%;
+   }
+}
+
+/* mobile narrow
+--------------------------------------------------------------- */
+@media only screen and (max-width: 460px) {
+   html{
+      font-size: 100%;
+   }
+}
+
+/* larger screens
+--------------------------------------------------------------- */
+@media screen and (min-width: 1200px) {
+   html{
+      font-size: 62.5%;
+   }
+}

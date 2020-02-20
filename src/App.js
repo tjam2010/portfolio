@@ -21,10 +21,10 @@ class App extends Component {
           <Route path="/about" component={About} />
           <Route path="/resume" component={Resume} />
           <Route path="/contact" component={Contact} />
-        {/* <Portfolio /> */}
-        {/* <About /> */}
-        {/* <Resume /> */}
-        {/* <Contact /> */}
+          <Portfolio />
+          <About />
+          <Resume />
+          <Contact />
         {/* <Footer /> */}
         </div>
       </BrowserRouter>
