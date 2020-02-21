@@ -2,8 +2,10 @@
 /* greens - A1D19C, 7EBD77, 5DA955, 3C9233 */
 
 .App{
-
+    
 }
+
+/* menu styling */
 
 #menu{
     position:fixed;
@@ -14,15 +16,16 @@
     flex-direction: column;
     padding: 5rem;
     z-index: 3;
+    mix-blend-mode: difference;
 }
 
 #divider{
     position:absolute;
     top:calc(38px + 5rem + 22px + 3rem);
     right:20px;
-    height:40%;
+    height:360px;
     width:.5px;
-    background-color: black;
+    background-color: white;
 }
 
 .link-wrap-header{
@@ -36,33 +39,50 @@
 }
 
 .link{
-    color:black;
+    color:white;
     text-decoration: none;
 }
 
 .link:hover{
-    color:#034BF1;
+    color:#FCB40E;
 }
 
 #title, #title:visited{
     font-style: italic;
-    color:#034BF1;
+    color:rgb(252,180,14);
 }
 
-#landing{
-    background-color: white;
-    font-size: 2.5rem;
-    position: absolute;
-    top:0;
-    left:247.4px;
-    right:0;
+/* general page styling */
+
+.page{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
     padding:6.5rem;
-}
+    padding-left:calc(247.4px + 6.5rem);
+    background: white;
+ }
 
-#landing-content{
+.content{
     display:flex;
     flex-direction: column;
     align-items: center;
+ }
+
+ /* landing styling */
+
+#landing{
+    position:relative;
+    background-color: white;
+    font-size: 2.5rem;
+    padding-top:0;
+    padding-bottom:0;
+}
+
+#landing-content{
+    padding-top:6.5rem;
+    overflow: hidden;
 }
 
 #landing-caption{
@@ -71,5 +91,22 @@
 }
 
 #landing-img{
+    object-fit: cover;
+    height:559px;
     width:100%;
+}
+
+#work{
+    background-blend-mode: screen;
+    background: rgb(3,75,241);
+}
+
+#about{
+}
+
+#resume{
+    background: rgb(3,75,241);
+}
+
+#contact{
 }

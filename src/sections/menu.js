@@ -12,16 +12,16 @@ export default class Menu extends Component {
                 <Link id="title" className="link" to="/" >TJ Gascho</Link>
             </h1>
             <h3 className="link-wrap-header">
-                <Link className="link" to="/portfolio">My Work</Link>
+                <Link className="link" to="/work">My Work</Link>
             </h3>
             <h5 className="link-wrap">
-                <Link className="link" to="/portfolio">understanding</Link>
+                <Link className="link" to="/work">understanding</Link>
             </h5>
             <h5 className="link-wrap">
-                <Link className="link" to="/portfolio">communicating</Link>
+                <Link className="link" to="/work">communicating</Link>
             </h5>
             <h5 className="link-wrap">
-                <Link className="link" to="/portfolio">designing</Link>
+                <Link className="link" to="/work">designing</Link>
             </h5>
             <h3 className="link-wrap-header" >
                 <Link className="link" to="/about">My Story</Link>
