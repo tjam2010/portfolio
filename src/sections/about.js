@@ -5,7 +5,7 @@ export default class About extends Component {
     return (
       <section className="page" id="about">
         <div className="content" id="about-content">
-          <div id="about-caption">about</div>
+          <div className="title" id="about-caption">about</div>
         </div>
       </section>
     );

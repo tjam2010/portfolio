@@ -5,7 +5,7 @@ export default class Resume extends Component {
     return (
       <section className="page" id="resume">
         <div className="content" id="resume-content">
-          <div id="resume-caption">resume</div>
+          <div className="title" id="resume-caption">resume</div>
         </div>
       </section>
     );

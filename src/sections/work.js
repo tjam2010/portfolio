@@ -5,7 +5,7 @@ export default class Work extends Component {
     return (
       <section className="page" id="work">
         <div className="content" id="work-content">
-          <div id="work-caption">my work</div>
+          <div className="title" id="work-caption">my work</div>
         </div>
       </section>
     );
