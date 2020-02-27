@@ -57,7 +57,6 @@
 .page{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     height: 100vh;
     padding:6.5rem;
     padding-left:calc(247.4px + 6.5rem);
@@ -92,9 +91,23 @@
 
 #landing-img{
     object-fit: cover;
-    height:559px;
+    height:700px;
     width:100%;
 }
+
+.wave {
+    position: absolute;
+    bottom:-1px;
+    background: none;
+    color: #FFF;
+    text-align: center;
+    overflow: hidden;
+    width:100%;
+}
+
+.wave > svg {
+    display: block;
+  }
 
 #work{
     background-blend-mode: screen;
