@@ -9,31 +9,85 @@ export default class Menu extends Component {
         <div id="menu">
             <div id="divider"></div>
             <h1>
-                <Link id="title" className="link" to="/" >TJ Gascho</Link>
+                <NavLink activeClassName="active" id="title" className="link" exact="true" to="/"
+                onClick={()=>{
+                    document.getElementById("landing").scrollIntoView();
+                    console.log("scrolling");
+                }}>
+                    TJ Gascho
+                </NavLink>
             </h1>
             <h3 className="link-wrap-header">
-                <Link className="link" to="/work">My Work</Link>
+                <NavLink className="link parent-link" to="/work"
+                onClick={()=>{
+                    document.getElementById("work").scrollIntoView();
+                    console.log("scrolling");
+                }}>
+                    My Work
+                </NavLink>
             </h3>
             <h5 className="link-wrap">
-                <Link className="link" to="/work">understanding</Link>
+                <NavLink className="link" to="/work/understand"
+                onClick={()=>{
+                    document.getElementById("work").scrollIntoView();
+                    console.log("scrolling");
+                }}>
+                    understanding
+                </NavLink>
             </h5>
             <h5 className="link-wrap">
-                <Link className="link" to="/work">communicating</Link>
+                <NavLink className="link" to="/work/communicate"
+                onClick={()=>{
+                    document.getElementById("work").scrollIntoView();
+                    console.log("scrolling");
+                }}>
+                    communicating
+                </NavLink>
             </h5>
             <h5 className="link-wrap">
-                <Link className="link" to="/work">designing</Link>
+                <NavLink className="link" to="/work/design"
+                onClick={()=>{
+                    document.getElementById("work").scrollIntoView();
+                    console.log("scrolling");
+                }}>              
+                    designing
+                </NavLink>
             </h5>
             <h3 className="link-wrap-header" >
-                <Link className="link" to="/about">My Story</Link>
+                <NavLink className="link parent-link" to="/story"
+                onClick={()=>{
+                    document.getElementById("about").scrollIntoView();
+                    console.log("scrolling");
+                }}>
+                    My Story
+                </NavLink>
             </h3>
             <h5 className="link-wrap">
-                <Link className="link" to="/about">about</Link>
+                <NavLink className="link" to="/story/about"
+                onClick={()=>{
+                    document.getElementById("about").scrollIntoView();
+                    console.log("scrolling");
+                }}>
+                    about
+                </NavLink>
             </h5>
             <h5 className="link-wrap">
-                <Link className="link" to="/resume">resume</Link>
+                <NavLink className="link" to="/story/resume"
+                onClick={()=>{
+                    document.getElementById("resume").scrollIntoView();
+                    console.log("scrolling");
+                }}>                   
+                    resume
+                </NavLink>
             </h5>
             <h5 className="link-wrap">
-                <Link className="link" to="/contact">contact</Link>
+                <NavLink className="link" to="/story/contact"
+                onClick={()=>{
+                    document.getElementById("contact").scrollIntoView();
+                    console.log("scrolling");
+                }}>                    
+                    contact
+                </NavLink>
             </h5>
         </div>
       

@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "node-sass": "^4.13.1",
     "react": "^16.8.6",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-awesome-modal": "^2.0.5",
+    "react-awesome-slider": "^4.1.0",
     "react-dom": "^16.8.6",
     "react-pdf": "^4.1.0",
     "react-router": "^5.1.2",
