@@ -4,7 +4,7 @@
 /* difference colors - rgb(210, 255, 0), #FCB40E */
 
 .App{
-    
+  scroll-behavior: smooth;
 }
 
 /* variable definitions */
@@ -166,7 +166,25 @@
     height:600px;
     width:100%;
     border-radius: 20px 20px 0 0;
-    background: lightgray;
+    background: rgb(242, 242, 242);
+    padding:60px;
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+#contact-form{
+  width:100%;
+}
+
+.ant-form-item-label, .ant-form label{
+  font-size: 1.6rem;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 100;
+}
+
+.ant-form-item textarea.ant-input {
+  height: 80px;
 }
 
 #footer{
@@ -176,7 +194,6 @@
     width: 100%;
     background:var(--blue-fade);
 }
-
 .awssld__container figure, .awssld__content, .awssld__box {
     display: block;
     position: absolute;

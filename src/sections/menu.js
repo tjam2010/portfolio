@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import { Link, NavLink } from 'react-router-dom'
-// import { HashLink as Link } from 'react-router-hash-link';
+import { NavLink } from 'react-router-dom'
 
-export default class Menu extends Component {
+export default class Menu extends Component {    
 
   render() {
     return (
         <div id="menu">
             <div id="divider"></div>
             <h1>
-                <NavLink activeClassName="active" id="title" className="link" exact="true" to="/"
+                <NavLink activeClassName="active" id="title" className="link" exact={true} to="/"
                 onClick={()=>{
-                    document.getElementById("landing").scrollIntoView();
+                    document.getElementById("landing").scrollIntoView({ behavior: 'smooth' });
+                    // .scrollIntoView();
                     console.log("scrolling");
                 }}>
                     TJ Gascho
@@ -20,7 +20,7 @@ export default class Menu extends Component {
             <h3 className="link-wrap-header">
                 <NavLink className="link parent-link" to="/work"
                 onClick={()=>{
-                    document.getElementById("work").scrollIntoView();
+                    document.getElementById("work").scrollIntoView({ behavior: 'smooth' });
                     console.log("scrolling");
                 }}>
                     My Work
@@ -29,7 +29,7 @@ export default class Menu extends Component {
             <h5 className="link-wrap">
                 <NavLink className="link" to="/work/understand"
                 onClick={()=>{
-                    document.getElementById("work").scrollIntoView();
+                    document.getElementById("work").scrollIntoView({ behavior: 'smooth' });
                     console.log("scrolling");
                 }}>
                     understanding
@@ -38,7 +38,7 @@ export default class Menu extends Component {
             <h5 className="link-wrap">
                 <NavLink className="link" to="/work/communicate"
                 onClick={()=>{
-                    document.getElementById("work").scrollIntoView();
+                    document.getElementById("work").scrollIntoView({ behavior: 'smooth' });
                     console.log("scrolling");
                 }}>
                     communicating
@@ -47,7 +47,7 @@ export default class Menu extends Component {
             <h5 className="link-wrap">
                 <NavLink className="link" to="/work/design"
                 onClick={()=>{
-                    document.getElementById("work").scrollIntoView();
+                    document.getElementById("work").scrollIntoView({ behavior: 'smooth' });
                     console.log("scrolling");
                 }}>              
                     designing
@@ -56,7 +56,7 @@ export default class Menu extends Component {
             <h3 className="link-wrap-header" >
                 <NavLink className="link parent-link" to="/story"
                 onClick={()=>{
-                    document.getElementById("about").scrollIntoView();
+                    document.getElementById("about").scrollIntoView({ behavior: 'smooth' });
                     console.log("scrolling");
                 }}>
                     My Story
@@ -65,7 +65,7 @@ export default class Menu extends Component {
             <h5 className="link-wrap">
                 <NavLink className="link" to="/story/about"
                 onClick={()=>{
-                    document.getElementById("about").scrollIntoView();
+                    document.getElementById("about").scrollIntoView({ behavior: 'smooth' });
                     console.log("scrolling");
                 }}>
                     about
@@ -74,7 +74,7 @@ export default class Menu extends Component {
             <h5 className="link-wrap">
                 <NavLink className="link" to="/story/resume"
                 onClick={()=>{
-                    document.getElementById("resume").scrollIntoView();
+                    document.getElementById("resume").scrollIntoView({ behavior: 'smooth' });
                     console.log("scrolling");
                 }}>                   
                     resume
@@ -83,7 +83,7 @@ export default class Menu extends Component {
             <h5 className="link-wrap">
                 <NavLink className="link" to="/story/contact"
                 onClick={()=>{
-                    document.getElementById("contact").scrollIntoView();
+                    document.getElementById("contact").scrollIntoView({ behavior: 'smooth' });
                     console.log("scrolling");
                 }}>                    
                     contact
@@ -94,3 +94,4 @@ export default class Menu extends Component {
     );
   }
 }
+
