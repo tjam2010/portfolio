@@ -24,7 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://tjam2010.github.io/",
+  "homepage": "https://tjam2010.github.io/work",
   "eslintConfig": {
     "extends": "react-app"
   },
