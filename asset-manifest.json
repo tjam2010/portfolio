@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9741e8af.chunk.css",
-    "main.js": "/portfolio/static/js/main.84915b13.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.84915b13.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.44087e9b.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.44087e9b.js.map",
-    "static/js/2.d8f2f520.chunk.js": "/portfolio/static/js/2.d8f2f520.chunk.js",
-    "static/js/2.d8f2f520.chunk.js.map": "/portfolio/static/js/2.d8f2f520.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.1861bf8761eac0e032bcea02cea84e1c.js": "/portfolio/precache-manifest.1861bf8761eac0e032bcea02cea84e1c.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.9741e8af.chunk.css.map": "/portfolio/static/css/main.9741e8af.chunk.css.map",
-    "static/js/2.d8f2f520.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d8f2f520.chunk.js.LICENSE.txt",
-    "static/media/landing.jpg": "/portfolio/static/media/landing.fa652fee.jpg",
-    "static/media/tj_tedx.jpg": "/portfolio/static/media/tj_tedx.07d209eb.jpg"
+    "main.css": "/static/css/main.9741e8af.chunk.css",
+    "main.js": "/static/js/main.58da9be8.chunk.js",
+    "main.js.map": "/static/js/main.58da9be8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c2b20a0b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c2b20a0b.js.map",
+    "static/js/2.d8f2f520.chunk.js": "/static/js/2.d8f2f520.chunk.js",
+    "static/js/2.d8f2f520.chunk.js.map": "/static/js/2.d8f2f520.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.cf2d504d0d27ee64d4e893790443eabf.js": "/precache-manifest.cf2d504d0d27ee64d4e893790443eabf.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.9741e8af.chunk.css.map": "/static/css/main.9741e8af.chunk.css.map",
+    "static/js/2.d8f2f520.chunk.js.LICENSE.txt": "/static/js/2.d8f2f520.chunk.js.LICENSE.txt",
+    "static/media/landing.jpg": "/static/media/landing.fa652fee.jpg",
+    "static/media/tj_tedx.jpg": "/static/media/tj_tedx.07d209eb.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.44087e9b.js",
+    "static/js/runtime-main.c2b20a0b.js",
     "static/js/2.d8f2f520.chunk.js",
     "static/css/main.9741e8af.chunk.css",
-    "static/js/main.84915b13.chunk.js"
+    "static/js/main.58da9be8.chunk.js"
   ]
 }
