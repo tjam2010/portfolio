@@ -19,12 +19,14 @@
     "react-scrollspy": "^3.4.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "rm -rf docs && react-scripts build && mv build docs",
+    "build": "rm -rf docs && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://tjam2010.github.io/portfolio",
+  "homepage": "https://tjam2010.github.io/portfolio/",
   "eslintConfig": {
     "extends": "react-app"
   },
