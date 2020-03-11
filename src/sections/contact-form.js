@@ -11,7 +11,6 @@ import React, { Component } from 'react';
 
     handleSubmit (event) {
       console.log("submit");
-      event.preventDefault();
 
       const templateId = 'tj_portfolio';
     
@@ -53,7 +52,11 @@ import React, { Component } from 'react';
             <div className="flex input-wrap">
               <textarea placeholder="Message" rows="5" onChange={e => this.setState({ message: e.target.value })} value={this.state.message} required></textarea>
             </div>
-            <button id="contact-button" onClick={this.handleSubmit}>Send</button>
+            <button id="contact-button" onClick={e => {
+              if(this.state.message !== "" && this.state.name !== "" && this.state.email !== ""){
+                this.handleSubmit(e)
+              }
+            }}>Send</button>
           </form>
         </div>
         );

@@ -34,7 +34,7 @@ class App extends Component {
         <div className="App">
           <Menu />
           <Route exact strict path='/' component={Container} />
-          <Route strict path='/portfolio' component={Container} />
+          <Route strict path='/work' component={Container} />
           <Route exact strict path='/story' component={Container} />
           <Route path='/story/about' component={Container} />
           <Route strict path='/story/resume' component={Container} />

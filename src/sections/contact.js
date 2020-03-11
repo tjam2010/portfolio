@@ -13,7 +13,7 @@ export default class Contact extends Component {
             <ContactForm/>
           </div>
         </div>
-        <div id="footer"></div>
+        <div id="footer">© 2020 TJ Gascho</div>
       </section>
     );
   }
