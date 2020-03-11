@@ -348,8 +348,13 @@ input[type="email"]:not(:focus):not(:valid):not([value=""]) ~ span.validation-te
     position: absolute;
     bottom:0;
     height: 80px;
-    width: 100%;
+    width: calc(100% - 50px);
     background:var(--blue-fade);
+    display: flex;
+    align-items: center;
+    padding-left:50px;
+    font-size: 1.5rem;
+    color: white;
 }
 
 .awssld__container figure, .awssld__content, .awssld__box {
