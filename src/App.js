@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route } from 'react-router-dom'
+import { HashRouter, Route } from 'react-router-dom'
 
 import Menu from './sections/menu';
 import Landing from './sections/landing';
@@ -30,7 +30,7 @@ class Container extends Component{
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter basename='/'>
         <div className="App">
           <Menu />
           <Route exact strict path='/' component={Container} />
@@ -70,7 +70,7 @@ class App extends Component {
               }
           /> */}
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 
