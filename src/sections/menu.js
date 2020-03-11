@@ -8,7 +8,7 @@ export default class Menu extends Component {
         <div id="menu">
             <div id="divider"></div>
             <h1>
-                <NavLink activeClassName="active" id="title" className="link" exact={true} to="/work"
+                <NavLink activeClassName="active" id="title" className="link" exact={true} to="/"
                 onClick={()=>{
                     document.getElementById("landing").scrollIntoView({ behavior: 'smooth' });
                     // .scrollIntoView();
@@ -27,7 +27,7 @@ export default class Menu extends Component {
                 </NavLink>
             </h3>
             <h5 className="link-wrap">
-                <NavLink className="link" to="/work/understand"
+                <NavLink className="link" to="/work/understanding"
                 onClick={()=>{
                     document.getElementById("work").scrollIntoView({ behavior: 'smooth' });
                     console.log("scrolling");
@@ -36,7 +36,7 @@ export default class Menu extends Component {
                 </NavLink>
             </h5>
             <h5 className="link-wrap">
-                <NavLink className="link" to="/work/communicate"
+                <NavLink className="link" to="/work/communicating"
                 onClick={()=>{
                     document.getElementById("work").scrollIntoView({ behavior: 'smooth' });
                     console.log("scrolling");
@@ -45,7 +45,7 @@ export default class Menu extends Component {
                 </NavLink>
             </h5>
             <h5 className="link-wrap">
-                <NavLink className="link" to="/work/design"
+                <NavLink className="link" to="/work/designing"
                 onClick={()=>{
                     document.getElementById("work").scrollIntoView({ behavior: 'smooth' });
                     console.log("scrolling");

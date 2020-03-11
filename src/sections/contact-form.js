@@ -53,7 +53,7 @@ import React, { Component } from 'react';
               <textarea placeholder="Message" rows="5" onChange={e => this.setState({ message: e.target.value })} value={this.state.message} required></textarea>
             </div>
             <button id="contact-button" onClick={e => {
-              if(this.state.message !== "" && this.state.name !== "" && this.state.email !== ""){
+              if(this.state.message !== "" && this.state.name !== "" && /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(this.state.email)){
                 this.handleSubmit(e)
               }
             }}>Send</button>
