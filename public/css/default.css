@@ -125,11 +125,6 @@ h1, h2, h3, h4, h5, h6 {
  h4 { font-size: 20px; line-height: 30px; margin-bottom: 6px; }
  h5 { font-size: 18px; line-height: 30px; }
  h6 { font-size: 14px; line-height: 30px; }
- .subheader { }
-
- .selected{
-     /* font-weight: 600; */
- }
 
  /* smaller screens
 --------------------------------------------------------------- */
