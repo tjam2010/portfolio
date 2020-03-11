@@ -8,7 +8,7 @@ export default class Menu extends Component {
         <div id="menu">
             <div id="divider"></div>
             <h1>
-                <NavLink activeClassName="active" id="title" className="link" exact={true} to="/"
+                <NavLink activeClassName="active" id="title" className="link" exact={true} to="/portfolio"
                 onClick={()=>{
                     document.getElementById("landing").scrollIntoView({ behavior: 'smooth' });
                     // .scrollIntoView();
