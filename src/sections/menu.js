@@ -11,7 +11,6 @@ export default class Menu extends Component {
                 <NavLink activeClassName="active" id="title" className="link" exact={true} to="/"
                 onClick={()=>{
                     document.getElementById("landing").scrollIntoView({ behavior: 'smooth' });
-                    // .scrollIntoView();
                     console.log("scrolling");
                 }}>
                     TJ Gascho
@@ -27,7 +26,7 @@ export default class Menu extends Component {
                 </NavLink>
             </h3>
             <h5 className="link-wrap">
-                <NavLink className="link" to="/work/understanding"
+                <NavLink className="link" to={{pathname:"/work/understanding", slide:0}}
                 onClick={()=>{
                     document.getElementById("work").scrollIntoView({ behavior: 'smooth' });
                     console.log("scrolling");
@@ -36,7 +35,7 @@ export default class Menu extends Component {
                 </NavLink>
             </h5>
             <h5 className="link-wrap">
-                <NavLink className="link" to="/work/communicating"
+                <NavLink className="link" to={{pathname:"/work/communicating", slide:1}}
                 onClick={()=>{
                     document.getElementById("work").scrollIntoView({ behavior: 'smooth' });
                     console.log("scrolling");
@@ -45,7 +44,7 @@ export default class Menu extends Component {
                 </NavLink>
             </h5>
             <h5 className="link-wrap">
-                <NavLink className="link" to="/work/designing"
+                <NavLink className="link" to={{pathname:"/work/designing", slide:2}}
                 onClick={()=>{
                     document.getElementById("work").scrollIntoView({ behavior: 'smooth' });
                     console.log("scrolling");

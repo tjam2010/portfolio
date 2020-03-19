@@ -46,14 +46,14 @@ import React, { Component } from 'react';
               <input placeholder="Name" type="text" onChange={e => this.setState({ name: e.target.value })} value={this.state.name} required/>
             </div>
             <div className="input-wrap">
-              <input placeholder="E-mail Address" type="email" onChange={e => this.setState({ email: e.target.value })} value={this.state.email} required/>
-              <span className="validation-text">Please enter a valid email address.</span>
+              <input placeholder="E-mail" type="email" onChange={e => this.setState({ email: e.target.value })} value={this.state.email} required/>
+              <span className="validation-text">Please enter a valid e-mail address.</span>
             </div>
             <div className="flex input-wrap">
               <textarea placeholder="Message" rows="5" onChange={e => this.setState({ message: e.target.value })} value={this.state.message} required></textarea>
             </div>
             <button id="contact-button" onClick={e => {
-              if(this.state.message !== "" && this.state.name !== "" && /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(this.state.email)){
+              if(this.state.message !== "" && this.state.name !== "" && /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(this.state.email)){
                 this.handleSubmit(e)
               }
             }}>Send</button>
